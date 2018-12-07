@@ -4,6 +4,16 @@
     {% include 'Fantom/Layouts/post-slider.html.twig' %}
 {% endblock %}
 
+{% block header %}
+    {{ parent() }}
+
+{% endblock %}
+
+{% block footer %}
+    {{ parent() }}
+
+{% endblock %}
+
 {# WE CAN CHANGE PARENT CLASS HERE :) #}
 {#{% block parentClass %}#}
     {#{{ "col-lg-12" }}#}
