@@ -1,0 +1,213 @@
+{% extends 'Fantom/base.html.twig' %}
+
+{% block postSlider %}
+    <!--================Home Banner Area =================-->
+    <section class="banner_area">
+        <div class="banner_inner d-flex align-items-center">
+            <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+            <div class="container">
+                <div class="banner_content text-center">
+                    <h2>Post Archive</h2>
+                    <div class="page_link">
+                        <a href="{{ path('home') }}">Home</a>
+                        <a href="{{ path('blog') }}">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================End Home Banner Area =================-->
+{% endblock %}
+
+{% block header %}
+    {{ parent() }}
+
+{% endblock %}
+
+{% block footer %}
+    {{ parent() }}
+
+{% endblock %}
+
+{# WE CAN CHANGE PARENT CLASS HERE :) #}
+{#{% block parentClass %}#}
+    {#{{ "col-lg-12" }}#}
+{#{% endblock %}#}
+
+{% block content %}
+
+    <div class="blog_left_sidebar">
+        <div class="row">
+            <div class="col-md-6">
+                <article class="blog_style1 small">
+                    <div class="blog_img">
+                        <img class="img-fluid" src="{{ asset('Fantom/img/home-blog/blog-1.jpg') }}" alt="">
+                    </div>
+                    <div class="blog_text">
+                        <div class="blog_text_inner">
+                            <a class="cat" href="#">Gadgets</a>
+                            <a href="#"><h4>2nd Gen Smoke Co Bomb Alarm integration</h4></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                            <div class="date">
+                                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> March 14, 2018</a>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6">
+                <article class="blog_style1 small">
+                    <div class="blog_img">
+                        <img class="img-fluid" src="{{ asset('Fantom/img/home-blog/blog-2.jpg') }}" alt="">
+                    </div>
+                    <div class="blog_text">
+                        <div class="blog_text_inner">
+                            <a class="cat" href="#">Gadgets</a>
+                            <a href="#"><h4>2nd Gen Smoke Co Bomb Alarm integration</h4></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                            <div class="date">
+                                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> March 14, 2018</a>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6">
+                <article class="blog_style1 small">
+                    <div class="blog_img">
+                        <img class="img-fluid" src="{{ asset('Fantom/img/home-blog/blog-3.jpg') }}" alt="">
+                    </div>
+                    <div class="blog_text">
+                        <div class="blog_text_inner">
+                            <a class="cat" href="#">Gadgets</a>
+                            <a href="#"><h4>2nd Gen Smoke Co Bomb Alarm integration</h4></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                            <div class="date">
+                                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> March 14, 2018</a>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6">
+                <article class="blog_style1 small">
+                    <div class="blog_img">
+                        <img class="img-fluid" src="{{ asset('Fantom/img/home-blog/blog-4.jpg') }}" alt="">
+                    </div>
+                    <div class="blog_text">
+                        <div class="blog_text_inner">
+                            <a class="cat" href="#">Gadgets</a>
+                            <a href="#"><h4>2nd Gen Smoke Co Bomb Alarm integration</h4></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                            <div class="date">
+                                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> March 14, 2018</a>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6">
+                <article class="blog_style1 small">
+                    <div class="blog_img">
+                        <img class="img-fluid" src="{{ asset('Fantom/img/home-blog/blog-5.jpg') }}" alt="">
+                    </div>
+                    <div class="blog_text">
+                        <div class="blog_text_inner">
+                            <a class="cat" href="#">Gadgets</a>
+                            <a href="#"><h4>2nd Gen Smoke Co Bomb Alarm integration</h4></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                            <div class="date">
+                                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> March 14, 2018</a>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6">
+                <article class="blog_style1 small">
+                    <div class="blog_img">
+                        <img class="img-fluid" src="{{ asset('Fantom/img/home-blog/blog-6.jpg') }}" alt="">
+                    </div>
+                    <div class="blog_text">
+                        <div class="blog_text_inner">
+                            <a class="cat" href="#">Gadgets</a>
+                            <a href="#"><h4>2nd Gen Smoke Co Bomb Alarm integration</h4></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                            <div class="date">
+                                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> March 14, 2018</a>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6">
+                <article class="blog_style1 small">
+                    <div class="blog_img">
+                        <img class="img-fluid" src="{{ asset('Fantom/img/home-blog/blog-7.jpg') }}" alt="">
+                    </div>
+                    <div class="blog_text">
+                        <div class="blog_text_inner">
+                            <a class="cat" href="#">Gadgets</a>
+                            <a href="#"><h4>2nd Gen Smoke Co Bomb Alarm integration</h4></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                            <div class="date">
+                                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> March 14, 2018</a>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6">
+                <article class="blog_style1 small">
+                    <div class="blog_img">
+                        <img class="img-fluid" src="{{ asset('Fantom/img/home-blog/blog-8.jpg') }}" alt="">
+                    </div>
+                    <div class="blog_text">
+                        <div class="blog_text_inner">
+                            <a class="cat" href="#">Gadgets</a>
+                            <a href="#"><h4>2nd Gen Smoke Co Bomb Alarm integration</h4></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                            <div class="date">
+                                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> March 14, 2018</a>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <nav class="blog-pagination justify-content-center d-flex">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a href="#" class="page-link" aria-label="Previous">
+		                                    <span aria-hidden="true">
+		                                        <span class="lnr lnr-chevron-left"></span>
+		                                    </span>
+                    </a>
+                </li>
+                <li class="page-item"><a href="#" class="page-link">01</a></li>
+                <li class="page-item active"><a href="#" class="page-link">02</a></li>
+                <li class="page-item"><a href="#" class="page-link">03</a></li>
+                <li class="page-item"><a href="#" class="page-link">04</a></li>
+                <li class="page-item"><a href="#" class="page-link">09</a></li>
+                <li class="page-item">
+                    <a href="#" class="page-link" aria-label="Next">
+		                                    <span aria-hidden="true">
+		                                        <span class="lnr lnr-chevron-right"></span>
+		                                    </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+{% endblock %}
