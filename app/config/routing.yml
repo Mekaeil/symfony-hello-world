@@ -3,6 +3,11 @@ blog:
     type:     annotation
     prefix:   /
 
+blog_admin:
+    resource: "@BlogBundle/Controller/Admin"
+    type:     annotation
+    prefix:   /admin/
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation

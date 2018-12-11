@@ -16,6 +16,11 @@ Create simple project Hello World with Symfony 3.3 for learn about it :)
 * AppBundle
 * BlogBundle
 
+# Entity 
+
+* Post 
+* Category
+
 # Structure Front-end Section
 
     Views     
