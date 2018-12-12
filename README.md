@@ -1,6 +1,17 @@
 # symfony-hello-world
 Create simple project Hello World with Symfony 3.3 for learn about it :)
 
+Front Urls :
+* http://127.0.0.1:8000
+* http://127.0.0.1:8000/blog/1
+* http://127.0.0.1:8000/blog/posts/2
+* http://127.0.0.1:8000/blog
+
+Admin Urls:
+* http://127.0.0.1:8000/admin/category
+* http://127.0.0.1:8000/admin/post
+* http://127.0.0.1:8000/admin/post/create
+* http://127.0.0.1:8000/admin/category/create
 
 
 # Template Details
@@ -10,6 +21,13 @@ Create simple project Hello World with Symfony 3.3 for learn about it :)
 **Licence:** CC BY 3.0 (footer credits must remain in place)
 
 **URL:** [Fantom Template](https://colorlib.com/wp/template/fantom/)  
+
+
+# Admin Template Details
+
+**Theme:** Gentelella
+
+**URL:** [Gentelella-Admin](https://github.com/puikinsh/gentelella)
 
 
 # Bundles

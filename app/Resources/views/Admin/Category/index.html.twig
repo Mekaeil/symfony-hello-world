@@ -1,7 +1,57 @@
 {% extends "Admin/base.html.twig" %}
 
-{% block title %}BlogBundle:Catgeory:index{% endblock %}
+{% block header %}
+    {{ parent() }}
 
-{% block body %}
-<h1>Welcome to the Catgeory:index page</h1>
 {% endblock %}
+
+{% block footer %}
+    {{ parent() }}
+
+{% endblock %}
+
+
+{% block content %}
+
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+
+            <a class="btn btn-primary right" href="{{ path('admin.category.create') }}">
+                <span class="fa fa-plus"></span>
+                Add New Category
+            </a>
+
+            <div class="x_panel">
+
+                <div class="x_title">
+
+                    <h2>Categories</h2>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Slug</th>
+                            <th>Description</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+

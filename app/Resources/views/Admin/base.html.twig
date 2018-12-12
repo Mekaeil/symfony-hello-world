@@ -1,28 +1,14 @@
-Admin here
-{#{% include 'Fantom/Layouts/header.html.twig' %}#}
+{% include 'Admin/Layouts/header.html.twig' %}
 
-{#<!--================Header Menu Area =================-->#}
-{#{% include 'Fantom/Layouts/navigation.html.twig' %}#}
-{#<!--================Header Menu Area =================-->#}
+       {% include 'Admin/Layouts/navigation.html.twig' %}
 
-{#{% block postSlider %}{% endblock %}#}
+        {% include 'Admin/Layouts/top-nav.html.twig' %}
 
-{#<!--================Blog Area =================-->#}
-{#<section class="blog_area p_120">#}
-    {#<div class="container">#}
-        {#<div class="row">#}
+        <!-- page content -->
+        <div class="right_col" role="main">
+            {% block content %}
+            {% endblock %}
+        </div>
+        <!-- /page content -->
 
-            {#<div class="{% block parentClass %}col-lg-8{% endblock %}">#}
-                {#{% block content %}{% endblock %}#}
-            {#</div>#}
-
-            {#{% block sidebar %}#}
-                {#{% include 'Fantom/Layouts/sidebar.html.twig' %}#}
-            {#{% endblock %}#}
-
-        {#</div>#}
-    {#</div>#}
-{#</section>#}
-{#<!--================Blog Area =================-->#}
-
-{#{% include 'Fantom/Layouts/footer.html.twig' %}#}
+{% include 'Admin/Layouts/footer.html.twig' %}
